@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap 3.3.5</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--[if IE]>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+   <div class="main_menu">
+       <div class="container">
+   
+<!--
+       <nav class="navbar" role="navigation">
+
+        <div class="navbar-header">
+          <a class="logo" href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="">
+          <ul class="nav navbar-nav">
+
+
+                <li><a href="#">тсж</a></li>
+                <li><a href="#">дома</a></li>
+                <li><a href="#">услуги и тарифы</a></li>
+                <li><a href="#">докупенты и отчетность</a></li>
+
+
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Авторизация</a></li>
+          </ul>
+        </div>
+
+    </nav>
+-->
+   <div class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="logo" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">тсж <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="../united/">Новости</a></li>
+                <li><a href="../yeti/">Контакты</a></li>
+              </ul>
+            </li>
+            <li><a href="#">дома</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">услуги и тарифы <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="../united/">Новости</a></li>
+                <li><a href="../yeti/">Контакты</a></li>
+              </ul>
+            </li>
+            <li><a href="#">докупенты и отчетность</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="hidden-sm">Авторизация</span></a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    </div>
+   </div>
+    
+<header id="header" class="head_img">
+    <div class="header_mask"></div>
+</header>
+
+<div class="container">
+    <div class=" col-xs-12 col-sm-8" id="content_area">
+       
+        <div class="row news">
+            <div class="head">12 августа 2015</div>
+            <div class="content">
+                <h2 class="title"><a href="">общее собрание членов ТСЖ</a></h2>
+                <div class="text">
+                    Сообщаем Вам, что по инициативе членов правления ТСЖ «Благо» 
+в период с «23» сентября 2013 года по «15» октября 2013 года будет проводиться общее собрание членов ТСЖ «Благо» Калараша 11 и 13, 
+в форме заочного голосования.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row news even">
+            <div class="head">12 августа 2015</div>
+            <div class="content">
+                <h2 class="title"><a href="#">Принятие персональных решений</a></h2>
+                <div class="text">
+                    Общее собрание собственников помещений в форме заочного голосования осуществляется путем принятия собственниками персональных решений в письменной форме по вопросам, поставленным на голосование.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row news">
+            <div class="head">12 августа 2015</div>
+            <div class="content">
+                <h2 class="title"><a href="">собрание членов</a></h2>
+                <div class="text">
+Сообщаем Вам, что по инициативе членов правления ТСЖ «Благо» 
+в период с «23» сентября 2013 года по «15» октября 2013 года будет проводиться общее собрание членов ТСЖ «Благо» Калараша 11 и 13, 
+в форме заочного голосования.
+                </div>
+            </div>
+        </div>
+        
+    </div>    
+    <div class="side_bar col-sm-4 voting hidden-xs">
+        
+        <div class="block">
+            <h5 class="name">голосование</h5>
+            <h2 class="title">Как часто стоит проводить общее собрание жильцов?</h2>
+            <form action="">
+                <ul>
+                   <li><input type="radio" name="group1" value="1" checked id='voit1'> <label for="voit1">1 раз в месяц</label></li>
+                   <li><input type="radio" name="group1" value="2"  id='voit2'> <label for="voit2">2 раз в месяц</label></li>
+                   <li><input type="radio" name="group1" value="3" id='voit3'> <label for="voit3">3 раз в месяц</label></li>
+                </ul>
+                <input type="submit" value="голосовать"> <a href="" class="view_resalt">Смотреть результаты</a>
+            </form>
+        </div>
+        
+        <div class="block">
+            <h5 class="name">голосование</h5>
+            <h2 class="title">Как часто стоит проводить общее собрание жильцов?</h2>
+            <form action="">
+                <ul>
+                   <li><input type="radio" name="group1" value="1" checked id='voit1'> <label for="voit1">1 раз в месяц</label></li>
+                   <li><input type="radio" name="group1" value="2"  id='voit2'> <label for="voit2">2 раз в месяц</label></li>
+                   <li><input type="radio" name="group1" value="3" id='voit3'> <label for="voit3">3 раз в месяц</label></li>
+                </ul>
+                <input type="submit" value="голосовать"> <a href="" class="view_resalt">Смотреть результаты</a>
+            </form>
+        </div>
+        
+    </div>    
+</div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
