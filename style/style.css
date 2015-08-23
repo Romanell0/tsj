@@ -11,6 +11,18 @@ h2 {
   color: #292929;
   font-weight: 900;
 }
+.btn-back {
+  margin-top: 76px;
+}
+.btn-success {
+  background: #59b200;
+  border: 0;
+  border-radius: 0;
+  font-size: 100%;
+  text-transform: uppercase;
+  padding: 9px 43px;
+  font-weight: 400;
+}
 .main_menu {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1eb8fe+0,0073df+59,207cca+100,0073df+100 */
   background: #1eb8fe;
@@ -43,6 +55,7 @@ h2 {
   border-radius: 0;
   font-weight: 500;
   margin-bottom: 0;
+  z-index: 999;
 }
 .navbar .dropdown-menu {
   padding: 35px 86px 17px 27px;
@@ -167,7 +180,6 @@ h2 {
   background-position: bottom center;
 }
 #content_area {
-  z-index: -99;
   padding: 35px 0;
 }
 #content_area #home_page_content {
@@ -251,14 +263,31 @@ h2 {
   font-size: 117%;
   color: #19aefa;
 }
-.btn-success {
-  background: #59b200;
-  border: 0;
-  border-radius: 0;
-  font-size: 100%;
-  text-transform: uppercase;
-  padding: 9px 43px;
-  font-weight: 400;
+#content_area #news_page_content {
+  padding-top: 20px;
+}
+#content_area #news_page_content .date {
+  color: #59b200;
+  font-size: 85%;
+}
+#content_area #news_page_content .title {
+  font-weight: 300;
+  font-size: 255%;
+  text-transform: none;
+}
+#content_area #news_page_content p {
+  font-size: 115%;
+  max-width: 522px;
+}
+#content_area #news_page_content .intro_text {
+  margin-top: 43px;
+}
+#content_area #news_page_content img {
+  margin-top: 23px;
+  max-width: 570px;
+}
+#content_area #news_page_content .text {
+  margin-top: 41px;
 }
 .side_bar {
   padding-right: 0;
@@ -323,7 +352,7 @@ h2 {
 #footer {
   background: url(../img/voting-bg.jpg);
   height: 70px;
-  margin-top: 50px;
+  margin-top: 117px;
 }
 @media (max-width: 1000px) {
   .container {
