@@ -289,6 +289,27 @@ h2 {
 #content_area #news_page_content .text {
   margin-top: 41px;
 }
+#content_area #house_page_content .title {
+  font-weight: 300;
+  font-size: 255%;
+  text-transform: none;
+}
+#content_area #house_page_content .map_box {
+  height: 268px;
+  background-color: #ccc;
+  margin-top: 29px;
+}
+#content_area #house_page_content .descr {
+  padding: 0 8px;
+  margin-top: 25px;
+  font-size: 117%;
+}
+#content_area #house_page_content .descr ul {
+  padding: 0;
+}
+#content_area #house_page_content .descr ul li {
+  margin-bottom: 10px;
+}
 .side_bar {
   padding-right: 0;
   padding-left: 30px;
