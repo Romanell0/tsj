@@ -77,10 +77,10 @@
             <!--      содержимое файлов типа *_page_content.html пихать сюда -->
             <div id="house_page_content">
                 <h2 class="title">Хабаровск, ул. Сысоева, 4</h2>
-                <div class="map_box col-xs-6">
-<!--                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1191.9851017090093!2d30.35036400258723!3d59.83797941137952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962538b52cbd67%3A0x5ab57f1c102bfab7!2z0J_Rg9C70LrQvtCy0YHQutCw0Y8g0YPQuy4sIDjQujEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTYxNTg!5e0!3m2!1sru!2sru!4v1440307644942" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                <div class="map_box col-md-6 col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1191.9851017090093!2d30.35036400258723!3d59.83797941137952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962538b52cbd67%3A0x5ab57f1c102bfab7!2z0J_Rg9C70LrQvtCy0YHQutCw0Y8g0YPQuy4sIDjQujEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTYxNTg!5e0!3m2!1sru!2sru!4v1440307644942" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="descr col-xs-6">
+                <div class="descr col-md-6 col-sm-12">
                     <ul>
                         <li><strong>Вид обслуживания:</strong> Управление</li>
                         <li><strong>Дата начала обслуживания:</strong> 29.06.2015</li>
@@ -90,7 +90,32 @@
                         <li><strong>Количество нежилых помещений:</strong> 12</li>
                     </ul>
                 </div>
-                <div class="full_descr"></div>
+                <div class="full_descr col-xs-12">
+
+                    <div class="tabs">
+                        <ul id="myTab" class="nav nav-pills">
+                            <li class="active"><a href="#hose_pasport" data-toggle="tab">Паспорт дома</a></li>
+                            <li class=""><a href="#documents" data-toggle="tab">Документы и отчетность</a></li>
+                            <li class=""><a href="#repair" data-toggle="tab">Кап. ремонт</a></li>
+                            <li class=""><a href="#common_property" data-toggle="tab">общее имущество</a></li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                            <div class="tab-pane fade active in" id="hose_pasport">
+                                <p>hose_pasport</p>
+                            </div>
+                            <div class="tab-pane fade" id="documents">
+                                <p>documents</p>
+                            </div>
+                            <div class="tab-pane fade" id="repair">
+                                <p>repair</p>
+                            </div>
+                            <div class="tab-pane fade" id="common_property">
+                                <p>common_property</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
         <!--   end content-->
