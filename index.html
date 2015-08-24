@@ -53,7 +53,13 @@
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="hidden-sm">Авторизация</span></a></li>
+<!--                            <li class="auth_btn"><a href="#" data-toggle="modal" data-target="#auth_modal"><span class="hidden-sm">Авторизация</span></a></li>-->
+                            
+                            <li class="user_info"><a href="#" >
+                                <p class="hidden-sm">Константин</p>
+                                <p class="hidden-sm">Константинопольский</p>
+                                </a></li>
+
                         </ul>
 
                     </div>
@@ -75,48 +81,30 @@
         <!--   content-->
         <div class=" col-xs-12 col-sm-8" id="content_area">
             <!--      содержимое файлов типа *_page_content.html пихать сюда -->
-            <div id="house_page_content">
-                <h2 class="title">Хабаровск, ул. Сысоева, 4</h2>
-                <div class="map_box col-md-6 col-sm-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1191.9851017090093!2d30.35036400258723!3d59.83797941137952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962538b52cbd67%3A0x5ab57f1c102bfab7!2z0J_Rg9C70LrQvtCy0YHQutCw0Y8g0YPQuy4sIDjQujEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTYxNTg!5e0!3m2!1sru!2sru!4v1440307644942" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div class="descr col-md-6 col-sm-12">
-                    <ul>
-                        <li><strong>Вид обслуживания:</strong> Управление</li>
-                        <li><strong>Дата начала обслуживания:</strong> 29.06.2015</li>
-                        <li><strong>Общая площадь дома:</strong> 58 251.90 м2</li>
-                        <li><strong>Количество этажей:</strong> 25</li>
-                        <li><strong>Количество жилых помещений:</strong> 200</li>
-                        <li><strong>Количество нежилых помещений:</strong> 12</li>
-                    </ul>
-                </div>
-                <div class="full_descr col-xs-12">
-
-                    <div class="tabs">
-                        <ul id="myTab" class="nav nav-pills">
-                            <li class="active"><a href="#hose_pasport" data-toggle="tab">Паспорт дома</a></li>
-                            <li class=""><a href="#documents" data-toggle="tab">Документы и отчетность</a></li>
-                            <li class=""><a href="#repair" data-toggle="tab">Кап. ремонт</a></li>
-                            <li class=""><a href="#common_property" data-toggle="tab">общее имущество</a></li>
-                        </ul>
-                        <div id="myTabContent" class="tab-content">
-                            <div class="tab-pane fade active in" id="hose_pasport">
-                                <p>hose_pasport</p>
-                            </div>
-                            <div class="tab-pane fade" id="documents">
-                                <p>documents</p>
-                            </div>
-                            <div class="tab-pane fade" id="repair">
-                                <p>repair</p>
-                            </div>
-                            <div class="tab-pane fade" id="common_property">
-                                <p>common_property</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            <div id="contact_page_content">
+    <h2 class="title">Контактная информация</h2>
+    <div class="map_box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1191.9851017090093!2d30.35036400258723!3d59.83797941137952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962538b52cbd67%3A0x5ab57f1c102bfab7!2z0J_Rg9C70LrQvtCy0YHQutCw0Y8g0YPQuy4sIDjQujEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTYxNTg!5e0!3m2!1sru!2sru!4v1440307644942" width="100%" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <ul class="contact_info">
+        <li>
+            <p>Адрес местонахождения: </p>
+            <p>196158, Санкт-Петербург, ул. Пулковская, д. 8 корп.1</p>
+        </li>
+        <li>
+            <p>Почтовый адрес: </p>
+            <p>196158, Санкт-Петербург, ул. Пулковская, д. 8 корп.1</p>
+        </li>
+        <li>
+            <p>Телефон: </p>
+            <p>+7 (812) 354-78-26</p>
+        </li>
+        <li>
+            <p>Электронная почта: </p>
+            <a href="mailto:tsj-perspektiva@mail.ru">tsj-perspektiva@mail.ru</a>
+        </li>
+    </ul>
+</div>
         </div>
         <!--   end content-->
 
@@ -125,51 +113,78 @@
 
             <div class="block">
                 <h5 class="name">голосование</h5>
-                <h2 class="title">Как часто стоит проводить общее собрание жильцов?</h2>
-                <form action="">
-                    <ul>
-                        <li>
-                            <input type="radio" name="group1" value="1" checked id='voit1'>
-                            <label for="voit1">1 раз в месяц</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="group1" value="2" id='voit2'>
-                            <label for="voit2">2 раз в месяц</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="group1" value="3" id='voit3'>
-                            <label for="voit3">3 раз в месяц</label>
-                        </li>
-                    </ul>
-                    <input type="submit" value="голосовать"> <a href="" class="view_resalt">Смотреть результаты</a>
-                </form>
+                <div class="block_content voting">
+                    <h2 class="title">Как часто стоит проводить общее собрание жильцов?</h2>
+                    <form action="">
+                        <ul>
+                            <li>
+                                <input type="radio" name="group1" value="1" checked id='voit1'>
+                                <label for="voit1">1 раз в месяц</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="group1" value="2" id='voit2'>
+                                <label for="voit2">2 раз в месяц</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="group1" value="3" id='voit3'>
+                                <label for="voit3">3 раз в месяц</label>
+                            </li>
+                        </ul>
+                        <input type="submit" value="голосовать"> <a href="" class="view_resalt">Смотреть результаты</a>
+                    </form>
+                </div>
+
+
             </div>
 
             <div class="block">
-                <h5 class="name">голосование</h5>
-                <h2 class="title">Как часто стоит проводить общее собрание жильцов?</h2>
-                <form action="">
+                <h5 class="name">Последние новости</h5>
+                <div class="block_content last_news">
                     <ul>
-                        <li>
-                            <input type="radio" name="group1" value="1" checked id='voit1'>
-                            <label for="voit1">1 раз в месяц</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="group1" value="2" id='voit2'>
-                            <label for="voit2">2 раз в месяц</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="group1" value="3" id='voit3'>
-                            <label for="voit3">3 раз в месяц</label>
-                        </li>
+                        <li><span>12 августа</span><a href="#">Уборка снега на территории жилого комплекса</a></li>
+                        <li><span>10 августа</span><a href="#">Изменение реквизитов в квитанциях на оплату взноса на капитальный ремонт</a></li>
+                        <li><span>7 августа</span><a href="#">Отключение горячей и холодной воды во втором подъеде дома 8 корпус 1</a></li>
                     </ul>
-                    <input type="submit" value="голосовать"> <a href="" class="view_resalt">Смотреть результаты</a>
-                </form>
+                </div>
             </div>
 
         </div>
         <!--    end sidebar-->
     </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="auth_modal" tabindex="-1" role="dialog" aria-labelledby="test_label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Авторизация</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+
+                        <div class="col-xs-12">
+                            <input type="email" name="email" class="form-control text-center" placeholder="Электронная почта">
+                        </div>
+
+                        <div class="col-xs-12">
+                            <input type="password" name="password" class="form-control text-center" placeholder="Пароль">
+                        </div>
+
+                        <div class="col-xs-12 submit">
+                            <input type="submit" name='login' value="войти">
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <a href="#">Забыли пароль?</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--foote-->
     <footer id="footer">
