@@ -19,72 +19,86 @@
 </head>
 
 <body>
+   <div class="container">
+    <div class="header">
+               
+                <a href="/" class="logo"><img src="img/logo.png" alt=""></a>
+                <span class="phone_number">+7 (4212) <strong>30-40-50</strong></span>
+                <a href="#" class="auth">Авторизация</a>
+    </div>
+    </div>
     <!--  nav-->
+    <div class="container">
     <div class="main_menu">
-        <div class="container">
-            <div class="navbar navbar-default">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a class="logo" href="#"><img src="img/logo.png" alt=""></a>
-                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="navbar-collapse collapse" id="navbar-main">
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes#1">ТСЖ <span class="caret"></span></a>
-                                <ul class="dropdown-menu" aria-labelledby="themes">
-                                    <li><a href="../united/">Новости</a></li>
-                                    <li><a href="../yeti/">Контакты</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Дома</a></li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes#2">Услуги и тарифы <span class="caret"></span></a>
-                                <ul class="dropdown-menu" aria-labelledby="themes">
-                                    <li><a href="../united/">Новости</a></li>
-                                    <li><a href="../yeti/">Контакты</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Документы и отчетность</a></li>
-                        </ul>
+        
+            <div class="navbar navbar-default green_gradient_bg">
 
-                        <ul class="nav navbar-nav navbar-right">
-<!--                            <li class="auth_btn"><a href="#" data-toggle="modal" data-target="#auth_modal"><span class="hidden-sm">Авторизация</span></a></li>-->
-                            
-                            <li class="user_info"><a href="#" >
-                                <p class="hidden-sm">Константин</p>
-                                <p class="hidden-sm">Константинопольский</p>
-                                </a></li>
-
-                        </ul>
-
-                    </div>
+                <div class="navbar-collapse collapse" id="navbar-main">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes#1">ТСЖ <i class="arrow-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="themes">
+                                <li><a href="../united/">Новости</a></li>
+                                <li><a href="../yeti/">Контакты</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Дома</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes#2">Услуги и тарифы <i class="arrow-down"></i></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="themes">
+                                <li><a href="../united/">Новости</a></li>
+                                <li><a href="../yeti/">Контакты</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Документы и отчетность</a></li>
+                        <li><a href="#">Отправить заявку</a></li>
+                    </ul>
                 </div>
+
             </div>
-        </div>
+        
     </div>
 
-
-    <!--    header-->
+</div>
+    <!--    slider-->
     
-<header id="header" class="head_img">
-    <div class="header_mask"></div>
-</header>
+<div id="slider" >
+    <div class="container">
+        <div class="slider_images">
+            
+        </div>
+    </div>
+</div>
+<div class="container">
+   <div class="blue_gradient_bg b_r_6">
+        <div class="ad">
+        <div class="col-sm-2">
+            
+        </div>
+        <div class="col-sm-9">
+            В связи с плановым годовым техническим обслуживанием на центральной станции спутниковой связи (ЦССС-1МО) возможно пропадание связи в период с 02:00 ч. до 06:00 ч. 17.04.2013 г.(московского времени). Приносим извинения за причененные неудобства. 
+        </div>
+        <div class="clearfix"></div>
 
+    </div>   
+   </div>
+    
+</div>
 
     <!-- content-->
-    <div class="container cont_wraper">
+    <div class="container">
         <!--   content-->
-        <div class=" col-xs-12 col-sm-8" id="content_area">
+        <div class=" col-xs-12 col-sm-7" id="content_area">
             <!--      содержимое файлов типа *_page_content.html пихать сюда -->
             <div id='home_page_content'>
+               <div class="row news_head">
+               <h2>Новости</h2>
+               <a href="#">Архив новостей</a>
+               </div>
                 <div class="row news_block">
-                    <div class="head">12 августа 2015</div>
+                    
                     <div class="content">
+                       <div class="date">9 августа, среда</div>
                         <h2 class="title"><a href="">общее собрание членов ТСЖ</a></h2>
                         <div class="text">
                             Сообщаем Вам, что по инициативе членов правления ТСЖ «Благо» в период с «23» сентября 2013 года по «15» октября 2013 года будет проводиться общее собрание членов ТСЖ «Благо» Калараша 11 и 13, в форме заочного голосования.
@@ -92,22 +106,12 @@
                     </div>
                 </div>
 
-                <div class="row news_block">
-                    <div class="head">12 августа 2015</div>
+                <div class="row news_block">                    
                     <div class="content">
+                       <div class="date">9 августа, среда</div>
                         <h2 class="title"><a href="#">Принятие персональных решений</a></h2>
                         <div class="text">
                             Общее собрание собственников помещений в форме заочного голосования осуществляется путем принятия собственниками персональных решений в письменной форме по вопросам, поставленным на голосование.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row news_block">
-                    <div class="head">12 августа 2015</div>
-                    <div class="content">
-                        <h2 class="title"><a href="">собрание членов</a></h2>
-                        <div class="text">
-                            Сообщаем Вам, что по инициативе членов правления ТСЖ «Благо» в период с «23» сентября 2013 года по «15» октября 2013 года будет проводиться общее собрание членов ТСЖ «Благо» Калараша 11 и 13, в форме заочного голосования.
                         </div>
                     </div>
                 </div>
@@ -116,7 +120,7 @@
         <!--   end content-->
 
         <!--    sidebar-->
-        <div class="side_bar col-sm-4 voting hidden-xs">
+        <div class="side_bar col-sm-4 col-sm-offset-1 voting hidden-xs">
 
             <div class="block">
                 <h5 class="name">Голосование</h5>
@@ -137,45 +141,18 @@
                                 <label for="voit3">3 раз в месяц</label>
                             </li>
                         </ul>
-                        <input type="submit" value="Голосовать"> <a href="" class="view_result">Смотреть результаты</a>
+                        <input type="submit" value="Голосовать" class="green_gradient_bg"> <a href="" class="view_result">Смотреть результаты</a>
                     </form>
                 </div>
 
 
             </div>
 
-            <div class="block">
-                <h5 class="name">Последние новости</h5>
-                <div class="block_content last_news">
-                    <ul>
-                        <li><span>12 августа</span><a href="#">Уборка снега на территории жилого комплекса</a></li>
-                        <li><span>10 августа</span><a href="#">Изменение реквизитов в квитанциях на оплату взноса на капитальный ремонт</a></li>
-                        <li><span>7 августа</span><a href="#">Отключение горячей и холодной воды во втором подъеде дома 8 корпус 1</a></li>
-                    </ul>
-                </div>
-            </div>
 
         </div>
         <!--    end sidebar-->
     </div>
 
-
-
-<div class="page-buffer"></div>
-</div>
-
-
-    <!--foote-->
-    <footer id="footer">
-           <div class="container">
-               <div class="col-xs-6 cp">© 2015 ТСЖ «Сысоева»</div>
-               <div class="col-xs-6 creater">Сайт сделали <a href="#">классные ребята</a></div>
-<!--
-                <div class="cp"></div>
-                <div class="creater"></div>
--->
-           </div>        
-    </footer>
 
 
     <!-- Modal -->
@@ -208,6 +185,17 @@
             </div>
         </div>
     </div>
+
+
+    <!--foote-->
+    <footer id="footer">
+        <div class="container">
+            <div class="cp">© 2015 ТСЖ «Сысоева»</div>
+        </div>
+    </footer>
+
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
