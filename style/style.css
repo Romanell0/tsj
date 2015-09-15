@@ -4,6 +4,9 @@ body {
   font-family: 'Roboto', sans-serif !important;
   background: url(../img/bg.jpg);
 }
+ul {
+  list-style: none;
+}
 .container {
   max-width: 960px;
   padding-left: 10px;
@@ -173,7 +176,7 @@ body {
   padding-left: 4px;
 }
 #content_area {
-  padding: 27px 15px 0 15px;
+  padding: 27px 0px 0 0px;
 }
 #content_area #home_page_content .news_head {
   border-bottom: 2px solid #414042;
@@ -211,6 +214,144 @@ body {
   margin-top: 14px;
   font-size: 101%;
   line-height: 1.3em;
+}
+#content_area #news_list_page_content {
+  padding-right: 50px;
+  padding-left: 20px;
+}
+#content_area #news_list_page_content .news_head {
+  border-bottom: 2px solid #414042;
+  padding-bottom: 1px;
+  margin-bottom: 44px;
+}
+#content_area #news_list_page_content .news_head h2 {
+  float: left;
+  font-size: 129%;
+  padding-left: 58px;
+  padding-top: 8px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: 1px -118px;
+  padding-bottom: 10px;
+}
+#content_area #news_list_page_content .news_head a {
+  float: right;
+  font-size: 80%;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+#content_area #news_list_page_content .news_block {
+  margin-bottom: 55px;
+}
+#content_area #news_list_page_content .news_block .date {
+  font-size: 89%;
+}
+#content_area #news_list_page_content .news_block .title {
+  text-transform: uppercase;
+  font-size: 170%;
+  margin-top: 4px;
+  color: #5a9fe0;
+}
+#content_area #news_list_page_content .news_block .title a:hover {
+  color: #000;
+}
+#content_area #news_list_page_content .news_block .text {
+  margin-top: 14px;
+  font-size: 101%;
+  line-height: 1.3em;
+}
+#content_area #news_page_content {
+  padding-top: 20px;
+}
+#content_area #news_page_content .date {
+  color: #59b200;
+  font-size: 85%;
+}
+#content_area #news_page_content .title {
+  font-weight: 300;
+  font-size: 255%;
+  text-transform: none;
+}
+#content_area #news_page_content p {
+  font-size: 115%;
+  max-width: 522px;
+}
+#content_area #news_page_content .intro_text {
+  margin-top: 43px;
+}
+#content_area #news_page_content img {
+  margin-top: 23px;
+  max-width: 570px;
+}
+#content_area #news_page_content .text {
+  margin-top: 41px;
+}
+#content_area #house_page_content .title {
+  font-weight: 300;
+  font-size: 255%;
+  text-transform: none;
+}
+#content_area #house_page_content .map_box {
+  height: 268px;
+  margin-top: 29px;
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 992px) {
+  #content_area #house_page_content .map_box {
+    padding-right: 15px;
+  }
+}
+#content_area #house_page_content .map_box iframe {
+  width: 100%;
+  height: 268px;
+  border: 8px solid #d6d6d6!important;
+}
+#content_area #house_page_content .descr {
+  padding: 2px 6px;
+  margin-top: 25px;
+  font-size: 103%;
+}
+#content_area #house_page_content .descr ul {
+  padding: 0;
+}
+#content_area #house_page_content .descr ul li {
+  margin-bottom: 14px;
+}
+#content_area #house_page_content .full_descr {
+  margin-top: 47px;
+  padding: 0;
+}
+#content_area #house_page_content .full_descr .tabs #myTab li {
+  padding-right: 2px;
+}
+#content_area #house_page_content .full_descr .tabs #myTab li a {
+  border: 0;
+  border-radius: 0;
+  background-color: #e0e0e0;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  color: #333;
+  font-weight: 600;
+}
+#content_area #house_page_content .full_descr .tabs #myTab .active a {
+  background-color: #1db5fe;
+  color: #fff;
+}
+#content_area #house_page_content .full_descr .tabs #myTabContent .tab-pane > div:first-child {
+  padding-left: 0;
+}
+#content_area #house_page_content .full_descr .tabs #myTabContent .tab-pane > div table {
+  margin-top: 21px;
+}
+#content_area #house_page_content .full_descr .tabs #myTabContent .tab-pane > div table td {
+  padding: 8px 0px;
+  font-size: 94%;
+}
+#content_area #house_page_content .full_descr .tabs #myTabContent .tab-pane > div table tr > td:first-child {
+  font-weight: 600;
+}
+#content_area #house_page_content .full_descr .tabs #myTabContent .tab-pane > div table tr:first-child td {
+  border: 0;
 }
 .side_bar {
   padding: 27px 15px 0 15px;
@@ -263,4 +404,29 @@ body {
   font-size: 85%;
   border-top: 1px solid #bebebe;
   padding-bottom: 26px;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pagination {
+  margin-left: -20px;
+}
+.pagination li a {
+  font-size: 121%;
+  font-weight: 600;
+  color: #5a9fe0;
+  border: none;
+  padding: 6px 13px;
+  background: transparent;
+}
+.pagination li a:hover {
+  background: transparent;
+}
+.pagination li:first-child a {
+  padding-right: 53px;
+}
+.pagination li:last-child a {
+  padding-left: 53px;
 }
