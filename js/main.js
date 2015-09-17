@@ -1,5 +1,5 @@
 $(function () {
-    console.log('123');
+    console.log(';-D');
     $(".fancybox").fancybox();
         $("#owl-demo").owlCarousel({
 
