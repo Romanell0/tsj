@@ -504,46 +504,86 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a9fe0', end
 }
 .side_bar {
      padding: 27px 15px 0 15px;
-    .name{
-        font-size: 126%;
-        padding-top: 17px;
-        padding-left: 56px;
-        background: url(../img/icons.png) no-repeat;
-        background-position: 0px -35px;
-        padding-bottom: 22px;
-        border-bottom: 2px solid #414042;
+            .name{
+                font-size: 126%;
+                padding-top: 17px;
+                padding-left: 56px;
+                background: url(../img/icons.png) no-repeat;
+                background-position: 0px -35px;
+                padding-bottom: 22px;
+                border-bottom: 2px solid #414042;
+                a{
+                        font-size: 69%;
+                        float: right;
+                        margin-top: 5px;
+                        font-weight: 100;
+                        text-decoration: underline;
+                }
+            }
+    .block{
+        margin-bottom: 79px;
     }
-    .title{
-        font-size: 124%;
-        margin-top: 34px;
-        line-height: 1.3em;
+        .voting{
+            .name{
+                background-position: 0px -35px;
+            }
+        .title{
+            font-size: 124%;
+            margin-top: 34px;
+            line-height: 1.3em;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            margin-top: 30px;
+            li{
+                margin-bottom: 6px;
+                label{
+                        margin-left: 14px;
+                }
+            }
+        }
+        input[type=submit]{
+                color: #fff;
+                text-transform: uppercase;
+                border: 0;
+                padding: 12px 25px;
+                margin-top: 16px;
+                font-size: 97%;
+                border-radius: 5px;
+        }
+        .view_result{
+            font-size: 86%;
+            text-decoration: underline;
+            color: #000;
+            margin-left: 6%;
+        }
     }
-    ul{
-        list-style: none;
-        padding-left: 0;
-        margin-top: 30px;
-        li{
-            margin-bottom: 6px;
-            label{
-                    margin-left: 14px;
+    .last_news{
+        .name{
+            background-position: 0px -106px;
+                margin-bottom: 45px;
+        }
+        ul{
+            padding-left: 0;
+            li{
+                margin-bottom: 15px;
+            }
+            .date{
+                font-size: 90%;
+            }
+            .title{
+                font-size: 127%;
+                text-transform: uppercase;
+                margin-top: 8px;
+            }
+            .text{
+                margin-top: 14px;
+                line-height: 16px;
             }
         }
     }
-    input[type=submit]{
-            color: #fff;
-            text-transform: uppercase;
-            border: 0;
-            padding: 12px 25px;
-            margin-top: 16px;
-            font-size: 97%;
-            border-radius: 5px;
-    }
-    .view_result{
-        font-size: 86%;
-        text-decoration: underline;
-        color: #000;
-        margin-left: 6%;
-    }
+
 }
 #footer{
         margin-top: 20px;
@@ -588,3 +628,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a9fe0', end
         }
     }
 }
+
