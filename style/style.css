@@ -132,11 +132,19 @@ ul {
   text-decoration: none;
   background-color: #55A604;
 }
+.navbar .container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 @media (min-width: 992px) {
   .navbar {
     height: 45px;
     min-height: 45px;
     border-radius: 5px;
+  }
+  .navbar .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .navbar .nav {
     padding: 0 18px;
@@ -177,6 +185,25 @@ ul {
 }
 #slider {
   margin-top: 2px;
+}
+#slider .slider_images {
+  position: relative;
+}
+#slider .prev,
+#slider .next {
+  height: 28px;
+  width: 17px;
+  background: url(../img/slider_arrows.png) no-repeat;
+  top: 45%;
+  position: absolute;
+  cursor: pointer;
+}
+#slider .prev {
+  left: -57px;
+}
+#slider .next {
+  right: -57px;
+  background-position: -18px 0px;
 }
 #slider .item {
   border-radius: 5px;

@@ -114,7 +114,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a9fe0', end
     background-color: #55A604;
 }
 .navbar{
+    .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     @media (min-width: 992px){
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
         height: 45px;
         min-height: 45px;
         border-radius: 5px;
@@ -169,6 +177,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a9fe0', end
 
 #slider{
     margin-top: 2px;
+    .slider_images{
+        position: relative;
+    }
+    .prev, .next{
+        height: 28px;
+        width: 17px;
+        background: url(../img/slider_arrows.png) no-repeat;
+        top: 45%;
+        position: absolute;
+        cursor: pointer;
+    }
+    .prev{
+        left: -57px;
+    }
+    .next{
+        right: -57px;
+        background-position: -18px 0px;
+    }
     .item{
         border-radius: 5px;
         overflow: hidden;
